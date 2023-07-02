@@ -1,0 +1,162 @@
+/* MEDIA QUERIES */
+
+/* Mobile first, we start from the smallest viewport width */
+
+/* From 320px and up */
+@media (max-width: 767px) {
+  .container {
+    max-width: 750px;
+  }
+  .header .container nav ul {
+    display: none;
+  }
+  .header .container nav .form {
+    margin-left: 30px;
+  }
+  .landing .content,
+  .landing .content .text {
+    width: 100%;
+    max-width: 100% !important;
+    text-align: center;
+  }
+  .landing .change-background {
+    display: none;
+  }
+  .services .sevr-section {
+    text-align: center;
+  }
+  .services .sevr-section i {
+    margin-top: 20px;
+  }
+  .services .sevr-section h3 {
+    margin: 20px 0;
+  }
+  .services .sevr-section p {
+    font-size: 13px;
+  }
+  .design .image {
+    display: none;
+  }
+  .services .sevr-section {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+    grid-column-gap: 0;
+  }
+  .services .serv-box {
+    flex-direction: column;
+  }
+  .services .text {
+    width: 100%;
+  }
+  .portfoilo .shuffle {
+    display: block;
+    text-align: center;
+  }
+  .portfoilo .shuffle li {
+    margin: 0;
+  }
+  .about .image-cartona img {
+    bottom: -70px;
+    margin-top: -70px;
+  }
+  .stats .container .box {
+    flex-basis: 100%;
+  }
+  .our-skills .container .main {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .our-skills .container .main .content {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .our-skills .container .main .content img {
+    max-width: 25%;
+  }
+  .our-skills .container .main .content .text {
+    flex-basis: 100%;
+  }
+  .design .text-desin {
+    padding: 10px;
+    text-align: center;
+  }
+  .design .text-desin h2 {
+    font-size: 15px;
+  }
+  .design .text-desin ul li {
+    margin: 20px 0;
+    text-align: left;
+  }
+  .stats .container .box {
+    min-width: 50px;
+  }
+  .stats .container .box div {
+    font-size: 30px;
+  }
+  .contact .content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .contact .content form,
+  .contact .content .info {
+    flex-basis: 100%;
+  }
+}
+
+/* From 768px and up */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .header .container nav .toggle-menu {
+    display: none;
+  }
+  .portfoilo .cartona .image-cart {
+    flex-basis: 50%;
+  }
+  .stats .container .box {
+    flex-basis: 50%;
+  }
+}
+/* From 992px and up */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+  .stats .container .box {
+    flex-basis: 50%;
+  }
+}
+@media (max-width: 1023px) {
+  .our-skills .container .main .content {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+/* From 1024px and up */
+@media (min-width: 1024px) {
+  .container {
+    width: 1000px;
+  }
+  .portfoilo .cartona .image-cart {
+    flex-basis: 25%;
+  }
+  .stats .container .box {
+    flex-basis: 25%;
+  }
+}
+
+/* From 1224px and up */
+@media (min-width: 1224px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+/* From 1824px and up */
+@media (min-width: 1824px) {
+  .container {
+    width: 1800px;
+  }
+}
